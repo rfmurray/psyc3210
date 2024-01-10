@@ -88,7 +88,7 @@ max(x)
 sum(x)
 
 # mean
-sum(x)/len(x)
+m = sum(x)/len(x)
 
 # - item assignment
 
