@@ -75,6 +75,9 @@ x[-3:0]  # result is an empty list when first index is after second index
 x[-3:]
 x[:-4]
 
+# we can assign the results of any of the above operations to a new variable
+y = x[:-4]
+
 # - addition and multiplication
 
 a = [10, 20, 30] + [40, 50, 60]  # concatenates lists
