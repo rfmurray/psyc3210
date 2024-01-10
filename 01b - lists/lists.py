@@ -80,11 +80,15 @@ x[:-4]
 a = [10, 20, 30] + [40, 50, 60]  # concatenates lists
 b = 3 * [10, 20, 30]             # repeats a list
 
-# - length, minimum, and maximum
+# - length, minimum, maximum, sum
 
 len(x)
 min(x)
 max(x)
+sum(x)
+
+# mean
+sum(x)/len(x)
 
 # - item assignment
 
