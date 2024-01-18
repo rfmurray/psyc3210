@@ -15,9 +15,13 @@
 # with a mean of 0.75 and a standard deviation of 0.25. To get these
 # random numbers you can use the function random.gauss(). To read the help
 # on that function, do this at the command line:
+# 
 # import random
 # help(random.gauss)
-# (b) Use a for loop to count the number of reaction times less than 0.25.
+# 
+# (b) Use a for loop to count the number of reaction times in the list that
+# are less than 0.25.
+# 
 # (c) Use a for loop to count the number of reaction times less than 0.25
 # or greater than 1.25.
 
