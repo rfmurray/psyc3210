@@ -6,12 +6,12 @@ from psychopy.hardware import keyboard
 
 # open a full-screen window
 win = visual.Window(size=[], units='pix', fullscr=True)
+win.mouseVisible = False
 
 # create a sine wave grating object
 grating = visual.GratingStim(win=win, size=250, mask='gauss', sf=0.05)
 
-# create mouse and keyboard objects
-mouse = event.Mouse(visible=False)
+# create keyboard objects
 kb = keyboard.Keyboard()
 
 # run trials
