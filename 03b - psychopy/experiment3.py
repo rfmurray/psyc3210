@@ -4,7 +4,7 @@ import random
 from psychopy import visual, event, core, sound
 
 # set stimulus properties
-anglelist = [0.2, 0.5, 1, 2, 4, 8]  # list of grating angles (degrees)
+anglelist = [0.25, 0.5, 1, 2, 4, 8]  # list of grating angles (degrees)
 wavelength = 40.0           # sine wave wavelength (pixels)
 stimsize = 250.0            # stimulus size (pixels)
 stimdur = 0.5               # stimulus duration (seconds)
@@ -17,7 +17,7 @@ win.mouseVisible = False
 # create a sine wave grating object
 grating = visual.GratingStim(win=win, mask='gauss', size=stimsize, pos=[0,0], sf=1/wavelength)
 
-# create a dictionary of sound objects
+# create sound objects
 lowbeep = sound.Sound(value='C',  octave=4, secs=0.1, volume=0.8)
 highbeep = sound.Sound(value='C', octave=5, secs=0.1, volume=0.3)
 
