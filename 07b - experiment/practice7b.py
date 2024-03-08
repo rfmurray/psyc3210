@@ -5,7 +5,7 @@
 # name of the illusion, which is part of the filename. For example,
 # if the filename is 'images/rgb_simcon.hdr', then we may wish to extract
 # the illusion name 'simcon' (which is short for simultaneous contrast)
-# from this filename, and save that t the data file instead.
+# from this filename, and save that in the data file instead.
 # 
 # Read about the functions os.path.split() and os.path.splitext() to learn
 # how to extract the path, base filename, and extension from a string
