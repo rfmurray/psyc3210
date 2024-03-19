@@ -63,8 +63,8 @@ for stim in stimlist:
     filename = stim[0]
     stimlum  = stim[1]
     stimunit = stim[2]
-    maskhigh = stim[3]
-    masklow  = stim[4]
+    masklow  = stim[3]
+    maskhigh = stim[4]
     
     # get observer's match setting
     while True:
@@ -72,7 +72,7 @@ for stim in stimlist:
         # set match greylevel using mouse position
         limit = 500
         x, y = mouse.getPos()
-        matchunit = (y+limit)/(2*limit)
+        matchunit = -1 + (y+limit)/(2*limit)
         matchunit = max(min(matchunit,1),-1)
         
         # show stimulus
