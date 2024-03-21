@@ -8,7 +8,7 @@ df = pd.read_csv('data.csv')
 print(df)
 
 # run anova
-anova = AnovaRM(data=df, depvar='height', subject='subject',
-    within=['colour','temperature'])
+anova = AnovaRM(data=df, depvar='height', within=['colour','temperature'],
+    subject='subject')
 result = anova.fit()
 print(result)
